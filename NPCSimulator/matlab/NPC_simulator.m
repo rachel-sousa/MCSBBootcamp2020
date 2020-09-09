@@ -61,7 +61,7 @@ for iSample=1:NSample
             break;
         end
         
-        if 1 % visualize
+        if 0 % visualize
             figure(1);
             plot(x(1),x(2),'-ob');
             drawnow;
